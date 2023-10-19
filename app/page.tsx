@@ -37,10 +37,10 @@ const Home = async ({ searchParams: { category, endcursor } }: Props) => {
 
   if (projectsToDisplay.length === 0) {
     return (
-      <section className="flexStart flex-col paddings">
+      <section className="flexStart flex-col paddings bg-gradient-to-r from-purple-800 to-fuchsia-500">
         <Categories />
 
-        <p className="no-result-text text-center">No projects found, how about a <span className="text-lime-600 font-medium">NEW</span> one?</p>
+        <p className="no-result-text text-center text-white">No projects found, how about a <span className="text-black font-medium">NEW</span> one?</p>
       </section>
     )
   }

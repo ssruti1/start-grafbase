@@ -3,7 +3,7 @@ import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 
 export const metadata = {
-  title: "Greenut Studio",
+  title: "Start Studio",
   description: "Showcase and discover remarkable developer projects",
 };
 
