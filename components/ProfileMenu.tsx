@@ -12,7 +12,7 @@ const ProfileMenu = ({ session }: { session: SessionInterface }) => {
     const [openModal, setOpenModal] = useState(false);
 
     return (
-        <div className="flexCenter z-10 flex-col relative">
+        <div className="flexCenter z-10 flex-col relative text-white">
             <Menu as="div">
                 <Menu.Button className="flexCenter" onMouseEnter={() => setOpenModal(true)} >
                     {session?.user?.image && (
@@ -38,7 +38,7 @@ const ProfileMenu = ({ session }: { session: SessionInterface }) => {
                 >
                     <Menu.Items
                         static
-                        className="flexStart profile_menu-items"
+                        className="flexStart profile_menu-items bg-gradient-to-r from-black to-black"
                         onMouseLeave={() => setOpenModal(false)}
                     >
                         <div className="flex flex-col items-center gap-y-4">

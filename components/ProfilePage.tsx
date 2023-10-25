@@ -10,7 +10,7 @@ type Props = {
 }
 
 const ProfilePage = ({ user }: Props) => (
-    <section className='flexCenter flex-col max-w-10xl w-full mx-auto paddings'>
+    <section className='flexCenter flex-col max-w-10xl w-full mx-auto paddings bg-gradient-to-r from-purple-800 to-fuchsia-500 text-white'>
         <section className="flexBetween max-lg:flex-col gap-10 w-full">
             <div className='flex items-start flex-col w-full'>
                 <Image src={user?.avatarUrl} width={100} height={100} className="rounded-full" alt="user image" />

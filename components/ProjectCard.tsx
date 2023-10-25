@@ -39,7 +39,7 @@ const ProjectCard = ({ id, image, title, name, avatarUrl, userId }: Props) => {
                 </div>
             </Link>
 
-            <div className="flexBetween w-full px-2 mt-3 font-semibold text-sm">
+            <div className="flexBetween w-full px-2 mt-3 font-semibold text-sm text-white">
                 <Link href={`/profile/${userId}`}>
                         <div className="flexCenter gap-2">
                             <Image
