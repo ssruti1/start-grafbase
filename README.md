@@ -1,3 +1,6 @@
+This is a full stack Portfolio Management project made using Next.Js, Cloudinary, TailwindCSS, GraphQL, Next Auth, Typescript.
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
